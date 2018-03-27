@@ -32,12 +32,10 @@ public class Kolekcje {
         Set<Integer> key = map.keySet();
         ArrayList<Integer> list = new ArrayList();
         list.addAll(key);
-        
-        ArrayList<Integer> list2 = new ArrayList();
-        list2.addAll(wart);
+        list.addAll(wart);
       
         System.out.println(list);
-        System.out.println(list2);
+        
     }
     
 }
